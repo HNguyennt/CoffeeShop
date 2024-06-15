@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="common.css">
+    
+</head>
+<body>
+    <!-- Header navigation bar -->
+    <header id="header-container">
+        <img src="https://lirp.cdn-website.com/3121fb9c/dms3rep/multi/opt/TrUUKV3E-120w.png" alt="" srcset=""
+            id="web-logo">
+        <ul id="links-container">
+            <li><a href="/home.html" class="active">home</a></li>
+            <li><a href="/about.html">about</a></li>
+            <li><a href="/flavors.html">flavors</a></li>
+            <li><a href="/contact.html">contact</a></li>
+        </ul>
+        <span id="web-order">
+            order online
+        </span>
+    </header>
+    <div>
+        <input type="checkbox" id="drink" name="coffee" value="coffee" onclick="addDrink()">
+        <label for="coffee"> Coffee</label><br>
+        
+        <input type="checkbox" id="drink" name="tea" value="tea" onclick="addDrink()">
+        <label for="tea"> Tea</label><br>
+
+        <input type="checkbox" id="drink" name="orange-juice" value="orange-juice" onclick="addDrink()">
+        <label for="orange-juice"> Orange juice</label><br>
+
+        <input type="checkbox" id="drink" name="beer" value="beer" onclick="addDrink()">
+        <label for="beer"> Beer</label><br>
+    </div>
+    <!-- Footer -->
+    <footer id="footer-container">
+        <div class="contact">
+            <div class="title">
+                COFFEE BUILD<br>YOUR FRESH<br>
+                MIND
+            </div>
+            <div class="input-container">
+                <input type="text" id="contact-input">
+                <button id="subcribe-btn">
+                    SUBCRIBE
+                </button>
+            </div>
+        </div>
+        <div class="item-container">
+            <!-- Logo image -->
+            <div class="item logo-container">
+                <img class="logo" src="https://lirp.cdn-website.com/3121fb9c/dms3rep/multi/opt/TrUUKV3E-120w.png" alt=""
+                    srcset="">
+                <div class="content">
+                    NYC based coffee company servicing establishments nationwide. Custom blends and private labeling.
+                </div>
+            </div>
+            <!-- CONTACT US -->
+            <div class="item contact-us-container">
+                <span class="title">CONTACT US</span>
+                <div class="address-container">
+                    <span class="address-title">Address:</span>
+                    <span class="address-value">1015 45th ave., Long Island City, NY 11101</span>
+                </div>
+                <div class="phone-container">
+                    <span class="phone-title">Phone:</span>
+                    <span class="phone-value">0123456789</span>
+                </div>
+                <div class="email-container">
+                    <span class="email-title">Email:</span>
+                    <span class="email-value">nguyen.hn.2002@gmail.com</span>
+                </div>
+            </div>
+            <!-- OPENING HOURS -->
+            <div class="item opening-container">
+                <span class="title">OPENING HOURS</span>
+                <div class="scheduler-container">
+                    <ul>
+                        <li>
+                            <span>Mon</span>
+                            <span>9:00 am - 5:00 pm</span>
+                        </li>
+                        <li>
+                            <span>Tue</span>
+                            <span>9:00 am - 5:00 pm</span>
+                        </li>
+                        <li>
+                            <span>Wed</span>
+                            <span>9:00 am - 5:00 pm</span>
+                        </li>
+                        <li>
+                            <span>Thu</span>
+                            <span>9:00 am - 5:00 pm</span>
+                        </li>
+                        <li>
+                            <span>Fri</span>
+                            <span>9:00 am - 5:00 pm</span>
+                        </li>
+                        <li>
+                            <span>Sat</span>
+                            <span>9:00 am - 5:00 pm</span>
+                        </li>
+                        <li>
+                            <span>Sun</span>
+                            <span>9:00 am - 5:00 pm</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- RECENT NEWS -->
+            <div class="item recent-container">
+                <span class="title">
+                    RECENT NEWS
+                </span>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./cart.js"></script>
+</html>

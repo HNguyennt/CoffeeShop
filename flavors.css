@@ -1,0 +1,165 @@
+.header {
+    background: url("./public/bg-flavor.png") no-repeat center center/cover;
+    /* opacity: 0.8; */
+    height: 515px;
+    position: relative;
+    color: white;
+}
+
+.wrap-header-content {
+    position: absolute;
+    background-color: #0000007d;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-content {
+    width: 1200px;
+    margin: 0 32px;
+    margin-top: 250px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .header-content {
+        width: 1024px;
+    }
+}
+
+.brand-name {
+    margin: 0;
+    font-family: Oswald, "Oswald Fallback";
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.breadcrums {
+    margin-top: 4px;
+}
+
+.small-text {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.slash {
+    font-size: 12px;
+    padding: 0 5px;
+}
+
+.link {
+    color: #d4af37;
+    text-decoration: none;
+}
+
+/* ---------------------------MAIN CONTENT------------------------------*/
+main {
+    position: relative;
+    margin: 0 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrap-main {
+    width: 1200px;
+}
+
+.button-coffee img {
+    height: 42px;
+    width: 42px;
+    padding: 20px 22px;
+}
+
+.button-coffee img:hover {
+    filter: invert(100%);
+}
+
+.button-coffee {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 9999px;
+    z-index: 10;
+    top: -40px;
+    left: 124px;
+    /* bottom: 0px; */
+}
+
+.button-coffee:hover {
+    background-color: #d3af18;
+    /* filter: invert(100%); */
+}
+
+/* -- CARD "MANY FLAVORS TO CHOOSE FROM!"-- */
+.card {
+    padding: 45px 45px 20px 45px;
+    border: 1px solid rgba(238, 238, 238, 1);
+    background-color: #fff;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 12px;
+}
+
+.title-card {
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-family: Oswald, "Oswald Fallback";
+}
+
+.title-card::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 48%;
+    width: 50px;
+    height: 2px;
+    background-color: #d3af18;
+}
+
+.grid-card {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-item {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item img {
+    width: 200px;
+}
+
+.item-name {
+    font-weight: 700;
+    padding-top: 10px;
+    font-family: Oswald, "Oswald Fallback";
+}
+
+@media screen and (max-width: 1024px) {
+    .grid-item img {
+        width: 100px !important;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grid-card {
+        grid-template-columns: auto auto auto;
+    }
+
+    .grid-item {
+        padding: 10px;
+    }
+}

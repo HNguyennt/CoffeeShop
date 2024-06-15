@@ -1,0 +1,336 @@
+#home-container {
+    padding: 0px 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#intro-container {
+    color: white;
+    background-color: #161411;
+    padding: 20px 30px;
+}
+
+#intro-service {
+    background-image: url("./public/coffee-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    border-radius: 10px;
+    padding: 100px 10px;
+}
+
+#intro-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+#intro-links a {
+    text-decoration: none;
+    color: white;
+}
+
+#intro-links a:hover {
+    color: #d3af19;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #d3af19;
+}
+
+.wrap-social-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#intro-service span {
+    text-transform: uppercase;
+}
+
+.title-brand span {
+    font-size: 50px;
+    font-weight: 700;
+    width: 60%;
+    padding: 30px 0;
+}
+.title-brand p {
+    font-size: 18px;
+    font-weight: 200;
+    width: 60%;
+    padding: 30px 0;
+}
+.title-button {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#intro-service .order-online {
+    padding: 20px 25px;
+    background-color: #d3af19;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+#intro-service .order-online:hover {
+    background-color: #90760a;
+    color: #ffffff;
+}
+
+#intro-service .see-our-flavors {
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
+#intro-service .see-our-flavors:hover {
+    color: #000000;
+}
+
+#intro-service .see-our-flavors:hover {
+    color: black;
+    background-color: white;
+}
+
+#play-video {
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 2px solid #90760a;
+    border-radius: 10px;
+    padding: 15px 30px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+#play-video:hover {
+    background-color: #90760a;
+}
+
+#strong-container {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    transform: translateY(-50%);
+    margin: 60px 0 0 0;
+    gap: 20px;
+    padding: 20px 30px;
+    background-color: transparent;
+}
+
+#strong-container .strong-item {
+    flex: 1;
+    border-radius: 10%;
+    box-shadow: rgba(158, 158, 158, 0.25) 0 3px 11px 0;
+    min-height: 180px;
+    text-align: center;
+    padding: 0.4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+#strong-container .strong-item .strong-index {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2rem;
+    background-color: #90760a;
+    border-radius: 20px;
+    margin: 0.5em;
+    width: fit-content;
+    padding: 0.1em 1em;
+    color: #ffffff;
+}
+
+#strong-container .strong-item .strong-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 5px 0 0 0;
+}
+
+#strong-container .strong-item br {
+    border-bottom: 1px solid white;
+    display: inline-block;
+    content: "";
+    height: 2px;
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+#about-us-container {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 30px 30px;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+    width: 100%;
+    box-sizing: border-box;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+
+#about-us-container .left {
+    max-width: 400px;
+    padding-left: 30px;
+    flex: 5;
+}
+
+#about-us-container .left h3,
+#offer-container .left h3,
+#coffee-blends-container .left h3 {
+    font-weight: 700;
+    font-size: 35px;
+    color: yellow;
+    margin: 10px 0;
+}
+
+#about-us-container .right {
+    flex: 1;
+    background-image: url("./public/about-us.jpeg");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    min-height: 300px;
+}
+
+#about-us-container p {
+    font-size: 16px;
+}
+
+#offer-container {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 4%;
+    width: 100%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+#offer-container .left {
+    max-width: 400px;
+}
+
+.subtitle-offer,
+.subtitle-about {
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#offer-container .right {
+    flex: 5;
+    background-image: url("./public/offer.jpeg");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+#offer-container li {
+    font-size: 16px;
+}
+
+#coffee-blends-container {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 30px 30px;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: row-reverse;
+    gap: 4%;
+    width: 100%;
+    box-sizing: border-box;
+    /* justify-content: space-between; */
+}
+
+#coffee-blends-container .left {
+    order: -1;
+}
+
+#coffee-blends-container .right {
+    order: 1;
+}
+
+.subtitle-coffee-blends {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.img-coffee-blends img {
+    width: 100px;
+}
+
+.text-coffee-blend h5 {
+    font-family: Oswald, "Oswald Fallback";
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.video-container {
+    flex: 2;
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    border-radius: 10px;
+}
+
+.btn-coffee-blends {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 20px 28px;
+    background-color: #d3af19;
+    border: none;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+.btn-coffee-blends:hover {
+    cursor: pointer;
+}
+
+#about-us-container p,
+#offer-container p,
+#coffee-blends-container p {
+    font-size: 16px;
+}
+
+.w3-container{
+    background-color: #000000;
+    border: 2px solid white
+    ;
+    /* padding: 100px; */
+}
+
+.modal-video{
+    padding: 20px;
+}
